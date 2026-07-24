@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -19,27 +21,27 @@
 
             <ul class="nav-menu">
 
-              <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
 
-              <li><a href="programme.html" class="active">Programme</a></li>
+                <li><a href="programme.html" class="active">Programme</a></li>
 
-              <li><a href="intervenants.html">Intervenants</a></li>
+                <li><a href="intervenant.html">Intervenants</a></li>
 
-              <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
             </ul>
 
-           <div class="nav-actions">
+            <div class="nav-actions">
 
                 <button id="theme-toggle" aria-label="Changer de thème">
 
-                   <i class="bi bi-moon-fill"></i>
+                    <i class="bi bi-moon-fill"></i>
 
                 </button>
 
                 <button id="menu-toggle" aria-label="Ouvrir le menu">
 
-                   <i class="bi bi-list"></i>
+                    <i class="bi bi-list"></i>
 
                 </button>
 
@@ -51,36 +53,245 @@
 
     <main>
 
+        <!-- hero -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <h1>Programme du Sommet</h1>
+
+                <p>
+                    Trois journées riches en conférences, ateliers et rencontres pour construire l'avenir du numérique
+                    en Afrique.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- fil d'ariane -->
+
+        <section class="breadcrumb">
+
+            <div class="container">
+
+                <p>
+
+                    <a href="index.html">Accueil</a>
+
+                    /
+
+                    <span>Programme</span>
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- les onglets -->
+
+        <section class="schedule-tabs">
+
+            <div class="container">
+
+                <h2>Choisissez une journée</h2>
+
+                <div class="tabs">
+
+                    <button class="tab-btn active" data-day="day1">
+                        🚀 Jour 1
+                    </button>
+
+                    <button class="tab-btn" data-day="day2">
+                        💻 Jour 2
+                    </button>
+
+                    <button class="tab-btn" data-day="day3">
+                        🤝 Jour 3
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- planning des sessions -->
+
+        <section class="schedule">
+
+            <div class="container">
+
+                <div class="schedule-content active" id="day1">
+
+                    <h2>🚀 Jour 1 - Innovation & IA</h2>
+
+                    <div class="session">
+
+                        <span class="time">09:00</span>
+
+                        <div>
+                            <h3>Ouverture officielle</h3>
+                            <p>Présentation du sommet et discours d'accueil.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="session">
+
+                        <span class="time">10:30</span>
+
+                        <div>
+                            <h3>L'intelligence artificielle en Afrique</h3>
+                            <p>Conférence animée par des experts du domaine.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="schedule-content" id="day2">
+
+                    <h2>💻 Jour 2 - Développement & Cloud</h2>
+
+                    <div class="session">
+
+                        <span class="time">09:00</span>
+
+                        <div>
+                            <h3>Développement Web Moderne</h3>
+                            <p>Les nouvelles technologies du web.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="session">
+
+                        <span class="time">14:00</span>
+
+                        <div>
+                            <h3>Cloud Computing</h3>
+                            <p>Découvrir les services cloud et leurs usages.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="schedule-content" id="day3">
+
+                    <h2>🤝 Jour 3 - Entrepreneuriat & Networking</h2>
+
+                    <div class="session">
+
+                        <span class="time">09:30</span>
+
+                        <div>
+                            <h3>Créer sa Startup</h3>
+                            <p>Retour d'expérience d'entrepreneurs africains.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="session">
+
+                        <span class="time">15:00</span>
+
+                        <div>
+                            <h3>Networking</h3>
+                            <p>Rencontres entre participants et partenaires.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--les thematiques -->
+
+        <section class="topics">
+
+            <div class="container">
+
+                <h2>Thématiques abordées</h2>
+
+                <p class="section-description">
+                    Le sommet couvre les domaines clés de la transformation numérique en Afrique.
+                </p>
+
+                <div class="topics-grid">
+
+                    <div class="topic-card">
+                        <i class="bi bi-cpu-fill"></i>
+                        <h3>Intelligence Artificielle</h3>
+                    </div>
+
+                    <div class="topic-card">
+                        <i class="bi bi-cloud-fill"></i>
+                        <h3>Cloud Computing</h3>
+                    </div>
+
+                    <div class="topic-card">
+                        <i class="bi bi-shield-lock-fill"></i>
+                        <h3>Cybersécurité</h3>
+                    </div>
+
+                    <div class="topic-card">
+                        <i class="bi bi-phone-fill"></i>
+                        <h3>Développement Mobile</h3>
+                    </div>
+
+                    <div class="topic-card">
+                        <i class="bi bi-graph-up-arrow"></i>
+                        <h3>Entrepreneuriat</h3>
+                    </div>
+
+                    <div class="topic-card">
+                        <i class="bi bi-globe2"></i>
+                        <h3>Transformation Digitale</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
 
-       <div class="footer-container">
+        <div class="footer-container">
 
-           <div class="footer-about">
+            <div class="footer-about">
 
-               <h3>AfriConnect Summit</h3>
+                <h3>AfriConnect Summit</h3>
 
                 <p>
-                  Le rendez-vous incontournable de l'innovation, de la technologie
-                  et de l'entrepreneuriat en Afrique.
+                    Le rendez-vous incontournable de l'innovation, de la technologie
+                    et de l'entrepreneuriat en Afrique.
                 </p>
 
             </div>
 
             <div class="footer-links">
 
-               <h4>Liens rapides</h4>
+                <h4>Liens rapides</h4>
 
-               <ul>
+                <ul>
 
-                 <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Accueil</a></li>
 
-                 <li><a href="programme.html">Programme</a></li>
+                    <li><a href="programme.html">Programme</a></li>
 
-                 <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
 
-                 <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
                 </ul>
 
@@ -88,12 +299,12 @@
 
             <div class="footer-social">
 
-              <h4>Suivez-nous</h4>
+                <h4>Suivez-nous</h4>
 
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
 
             </div>
 
@@ -103,22 +314,23 @@
 
         <div class="footer-bottom">
 
-           <p>
-              &copy; <span id="current-year"></span> AfriConnect Summit.
-              Tous droits réservés.
-           </p>
+            <p>
+                &copy; <span id="current-year"></span> AfriConnect Summit.
+                Tous droits réservés.
+            </p>
 
-           <button id="back-to-top" aria-label="Retour en haut">
-              <i class="bi bi-arrow-up"></i>
-           </button>
+            <button id="back-to-top" aria-label="Retour en haut">
+                <i class="bi bi-arrow-up"></i>
+            </button>
 
         </div>
 
     </footer>
 
-    
+
 
     <script src="js/main.js"></script>
-    
+
 </body>
+
 </html>
