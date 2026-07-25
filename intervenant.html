@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
+
 <body>
 
     <header>
@@ -19,27 +21,27 @@
 
             <ul class="nav-menu">
 
-              <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
 
-              <li><a href="programme.html">Programme</a></li>
+                <li><a href="programme.html">Programme</a></li>
 
-              <li><a href="intervenant.html" class="active">Intervenants</a></li>
+                <li><a href="intervenant.html" class="active">Intervenants</a></li>
 
-              <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
 
             </ul>
 
-           <div class="nav-actions">
+            <div class="nav-actions">
 
                 <button id="theme-toggle" aria-label="Changer de thème">
 
-                   <i class="bi bi-moon-fill"></i>
+                    <i class="bi bi-moon-fill"></i>
 
                 </button>
 
                 <button id="menu-toggle" aria-label="Ouvrir le menu">
 
-                   <i class="bi bi-list"></i>
+                    <i class="bi bi-list"></i>
 
                 </button>
 
@@ -51,36 +53,208 @@
 
     <main>
 
+        <!-- hero intervenant -->
+
+        <section class="page-hero">
+            <div class="container">
+                <h1>
+                    Nos Intervenants
+                </h1>
+
+                <p>
+                    Dècouvrez les experts, entrepreneurs et leaders qui partageront leur experience pendant AfriConnect
+                    Summit 2026
+                </p>
+            </div>
+        </section>
+
+        <!-- fil d'ariane -->
+
+        <section class="breadcrumb">
+
+            <div class="container">
+
+                <p>
+
+                    <a href="index.html">Accueil</a>
+
+                    /
+
+                    <span>Intervenants</span>
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- presentation -->
+
+        <section class="speakers-intro">
+
+            <div class="container">
+
+                <h2>Des experts venus de toute l'Afrique</h2>
+
+                <p class="section-description">
+
+                    Nos intervenants sont des spécialistes de l'intelligence artificielle, du développement web, du
+                    cloud computing, de la cybersécurité et de l'entrepreneuriat.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- filtre -->
+
+        <section class="speaker-filter">
+
+            <div class="container">
+
+                <button class="filter-btn active">Tous</button>
+
+                <button class="filter-btn">IA</button>
+
+                <button class="filter-btn">Cloud</button>
+
+                <button class="filter-btn">Cybersécurité</button>
+
+                <button class="filter-btn">Entrepreneuriat</button>
+
+            </div>
+
+        </section>
+
+        <!-- les cartes des intervenants -->
+
+        <section class="speakers">
+
+            <div class="container">
+
+                <div class="speakers-grid">
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker1.jpg" alt="Amina Diop">
+
+                        <h3>Amina Diop</h3>
+
+                        <p class="speaker-role">Experte en Intelligence Artificielle</p>
+
+                        <p>
+                            Chercheuse spécialisée en intelligence artificielle et innovation numérique.
+                        </p>
+
+                    </article>
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker2.jpg" alt="David Mensah">
+
+                        <h3>David Mensah</h3>
+
+                        <p class="speaker-role">Entrepreneur Tech</p>
+
+                        <p>
+                            Fondateur d'une startup spécialisée dans les solutions numériques.
+                        </p>
+
+                    </article>
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker3.jpg" alt="Fatou Ndiaye">
+
+                        <h3>Fatou Ndiaye</h3>
+
+                        <p class="speaker-role">Consultante Cybersécurité</p>
+
+                        <p>
+                            Experte en protection des systèmes d'information et sécurité des données.
+                        </p>
+
+                    </article>
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker4.jpg" alt="Samuel Okoro">
+
+                        <h3>Samuel Okoro</h3>
+
+                        <p class="speaker-role">Architecte Cloud</p>
+
+                        <p>
+                            Consultant en infrastructures cloud et transformation digitale.
+                        </p>
+
+                    </article>
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker5.jpg" alt="Grace Njoroge">
+
+                        <h3>Grace Njoroge</h3>
+
+                        <p class="speaker-role">Développeuse Full Stack</p>
+
+                        <p>
+                            Développeuse passionnée par les technologies web modernes.
+                        </p>
+
+                    </article>
+
+                    <article class="speaker-card">
+
+                        <img src="images/speaker6.jpg" alt="Jean Kouassi">
+
+                        <h3>Jean Kouassi</h3>
+
+                        <p class="speaker-role">Expert Data Science</p>
+
+                        <p>
+                            Spécialiste en analyse de données et intelligence décisionnelle.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
 
-       <div class="footer-container">
+        <div class="footer-container">
 
-           <div class="footer-about">
+            <div class="footer-about">
 
-               <h3>AfriConnect Summit</h3>
+                <h3>AfriConnect Summit</h3>
 
                 <p>
-                  Le rendez-vous incontournable de l'innovation, de la technologie
-                  et de l'entrepreneuriat en Afrique.
+                    Le rendez-vous incontournable de l'innovation, de la technologie
+                    et de l'entrepreneuriat en Afrique.
                 </p>
 
             </div>
 
             <div class="footer-links">
 
-               <h4>Liens rapides</h4>
+                <h4>Liens rapides</h4>
 
-               <ul>
+                <ul>
 
-                 <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html">Accueil</a></li>
 
-                 <li><a href="programme.html">Programme</a></li>
+                    <li><a href="programme.html">Programme</a></li>
 
-                 <li><a href="intervenants.html">Intervenants</a></li>
+                    <li><a href="intervenants.html">Intervenants</a></li>
 
-                 <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
 
                 </ul>
 
@@ -88,12 +262,12 @@
 
             <div class="footer-social">
 
-              <h4>Suivez-nous</h4>
+                <h4>Suivez-nous</h4>
 
-              <a href="#"><i class="bi bi-facebook"></i></a>
-              <a href="#"><i class="bi bi-instagram"></i></a>
-              <a href="#"><i class="bi bi-linkedin"></i></a>
-              <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
 
             </div>
 
@@ -103,22 +277,23 @@
 
         <div class="footer-bottom">
 
-           <p>
-              &copy; <span id="current-year"></span> AfriConnect Summit.
-              Tous droits réservés.
-           </p>
+            <p>
+                &copy; <span id="current-year"></span> AfriConnect Summit.
+                Tous droits réservés.
+            </p>
 
-           <button id="back-to-top" aria-label="Retour en haut">
-              <i class="bi bi-arrow-up"></i>
-           </button>
+            <button id="back-to-top" aria-label="Retour en haut">
+                <i class="bi bi-arrow-up"></i>
+            </button>
 
         </div>
 
     </footer>
 
-    
+
 
     <script src="js/main.js"></script>
-    
+
 </body>
+
 </html>
