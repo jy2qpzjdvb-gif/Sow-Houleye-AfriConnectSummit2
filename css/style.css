@@ -1387,3 +1387,65 @@ hr {
     max-height: 200px;
 
 }
+
+/* RESPONSIVE */
+
+/* tablette */
+
+@media (max-width:992px) {
+
+    .hero-content {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+    }
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+    /* les cartes */
+
+    .stats-grid,
+    .features-grid,
+    .speakers-grid,
+    .themes-grid {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+/* mobile */
+
+@media (max-width:768px) {
+
+    .stats-grid,
+    .features-grid,
+    .speakers-grid,
+    .themes-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .hero-title {
+
+        font-size: 2.2rem;
+
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+}
