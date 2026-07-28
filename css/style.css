@@ -310,6 +310,11 @@ hr {
 
 #back-to-top {
 
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+
     width: 45px;
 
     height: 45px;
@@ -941,13 +946,13 @@ hr {
 
 }
 
-.schedule-content {
+.tab-content {
 
     display: none;
 
 }
 
-.schedule-content.active {
+.tab-content.active {
 
     display: block;
 

@@ -113,15 +113,15 @@
 
             <div class="container">
 
-                <button class="filter-btn active">Tous</button>
+                <button class="filter-btn active" data-filter="all">Tous</button>
 
-                <button class="filter-btn">IA</button>
+                <button class="filter-btn" data-filter="ia">IA</button>
 
-                <button class="filter-btn">Cloud</button>
+                <button class="filter-btn " data-filter="cloud">Cloud</button>
 
-                <button class="filter-btn">Cybersécurité</button>
+                <button class="filter-btn" data-filter="cyber">Cybersécurité</button>
 
-                <button class="filter-btn">Entrepreneuriat</button>
+                <button class="filter-btn" data-filter="entrepreneuriat">Entrepreneuriat</button>
 
             </div>
 
@@ -135,7 +135,7 @@
 
                 <div class="speakers-grid">
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="ia">
 
                         <img src="images/speaker1.jpg" alt="Amina Diop">
 
@@ -151,7 +151,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="entrepreneuriat">
 
                         <img src="images/speaker2.jpg" alt="David Mensah">
 
@@ -167,7 +167,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="cyber">
 
                         <img src="images/speaker3.jpg" alt="Fatou Ndiaye">
 
@@ -183,7 +183,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="cloud">
 
                         <img src="images/speaker4.jpg" alt="Samuel Okoro">
 
@@ -199,7 +199,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="all">
 
                         <img src="images/speaker5.jpg" alt="Grace Njoroge">
 
@@ -215,7 +215,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="all">
 
                         <img src="images/speaker6.jpg" alt="Jean Kouassi">
 
@@ -231,7 +231,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="cloud">
 
                         <img src="images/speaker7.jpg" alt="Kwame Asante">
 
@@ -247,7 +247,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="cyber">
 
                         <img src="images/speaker8.jpg" alt="Amina Traorè">
 
@@ -264,7 +264,7 @@
 
                     </article>
 
-                    <article class="speaker-card">
+                    <article class="speaker-card" data-category="all">
 
                         <img src="images/speaker9.jpg" alt="Samuel Okeke">
 
@@ -339,17 +339,20 @@
         <div class="footer-bottom">
 
             <p>
-                &copy; <span id="current-year"></span> AfriConnect Summit.
+                &copy; <span id="year"></span> AfriConnect Summit.
                 Tous droits réservés.
             </p>
-
-            <button id="back-to-top" aria-label="Retour en haut">
-                <i class="bi bi-arrow-up"></i>
-            </button>
+        </div>
 
         </div>
 
     </footer>
+
+    <button id="back-to-top" aria-label="Retour en haut">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+
 
 
 
