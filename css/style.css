@@ -401,6 +401,7 @@ hr {
 
     padding: 120px 20px 80px;
 
+
 }
 
 .hero-content {
@@ -991,20 +992,28 @@ hr {
     padding: 15px;
 
     border-bottom: 1px solid var(--border-color);
+    color: var(--text-color);
 
 }
 
-.programme tbody tr:nth-child(even) {
 
-    background: #f7f7f7;
+.schedule-table tbody tr:nth-child(even) {
+    background: var(--background-color);
+}
 
+
+.programme tbody tr:nth-child(odd) {
+    background: var(--surface-color);
 }
 
 .programme tbody tr:hover {
-
-    background: #e8f5e9;
-
+    background: var(--primary-color);
 }
+
+.programme tbody tr:hover td {
+    color: white;
+}
+
 
 /* thematiques */
 
